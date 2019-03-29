@@ -7,9 +7,9 @@
   <projects>
     <project name="fuchsia"
              path="."
-             remote="https://fuchsia.googlesource.com/fuchsia"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="7a3985ab0abbf908fde89a5365962d987f6fe7b6"/>
+             remote="https://review.gerrithub.io/OpenTrustGroup/fuchsia"
+             gerrithost="https://review.gerrithub.io"
+             remotebranch="gzos_dev"/>
   </projects>
   <hooks>
     <hook name="install-fx"

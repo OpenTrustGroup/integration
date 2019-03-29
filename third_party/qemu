@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projects>
+    <project name="third_party/qemu"
+             path="third_party/qemu"
+             remote="https://review.gerrithub.io/OpenTrustGroup/third_party-qemu"
+             remotebranch="gzos_dev"
+             gerrithost="https://review.gerrithub.io"/>
+    <project name="qemu/third_party/dtc"
+             path="third_party/qemu/dtc"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             remote="https://fuchsia.googlesource.com/third_party/dtc"/>
+    <project name="qemu/third_party/pixman"
+             path="third_party/qemu/pixman"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             remote="https://fuchsia.googlesource.com/third_party/pixman"/>
+    <project name="qemu/third_party/sdl"
+             path="third_party/qemu/sdl"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             remote="https://fuchsia.googlesource.com/third_party/sdl"/>
+  </projects>
+</manifest>

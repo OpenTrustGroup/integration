@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="qemu"/>
+  </imports>
+
+  <projects>
+    <project name="u-boot"
+             path="third_party/u-boot"
+             remote="https://review.gerrithub.io/OpenTrustGroup/u-boot"
+             remotebranch="gzos_dev"
+             gerrithost="https://review.gerrithub.io"/>
+    <project name="arm-trusted-firmware"
+             path="third_party/arm-trusted-firmware"
+             remote="https://review.gerrithub.io/OpenTrustGroup/arm-trusted-firmware"
+             remotebranch="gzos_dev"
+             gerrithost="https://review.gerrithub.io"/>
+    <project name="gen_rootfs"
+             path="third_party/gen_rootfs"
+             remote="https://review.gerrithub.io/OpenTrustGroup/gen_rootfs"
+             remotebranch="gzos"
+             gerrithost="https://review.gerrithub.io"/>
+    <project name="third_party/soc_term"
+             path="third_party/soc_term"
+             remote="https://github.com/linaro-swg/soc_term"/>
+  </projects>
+</manifest>
